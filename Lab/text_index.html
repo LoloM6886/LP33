@@ -1,11 +1,17 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title>Hello, world!</title>
     <style>
         #container{
             display: grid;
@@ -17,37 +23,31 @@
             grid-gap: 5px;
             padding: 5px;
         }
-        .item{
-            color: aliceblue;
-            background: #ffa5a8;
-            text-align: center;
-        }
-        
+
         table,
         tr,
         th,
         td {
             border: 2px solid white
-    
         }
 
         body {
                background-image: url("../image/pop.jpg");
         }
 
-        
-        
 
+        
+       
 
         .t {
             background-color: rgb(248, 231, 250);
             
-
         }
 
         .w{
             background-color: rgba(4, 252, 136, 0.815)
         }
+
 
         #heading {
             color: rgb(74, 76, 71);
@@ -64,7 +64,6 @@
 
         .a{
             background-color: rgb(113, 113, 219);
-
 
         }
       
@@ -85,6 +84,12 @@
         td:hover{
             background-color: hotpink;
         }
+        .btn{
+            background:#f05f5c;
+            color: white;
+            padding: 9px 26px;
+            border-radius: 20px;
+        }
 
         
 
@@ -95,15 +100,50 @@
 
 <body>
     
-
     <div id="container">
+         
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn" href="#">Python <br>(薛念林)</br> </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn" href="#">Web<br>(許展源)</br> </a>
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn" href="#">軟體工程<br>(陳錫民)</br> </a>
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn" href="#">資訊概論<br>(王銘宏)</br> </a>
+            </div>
+        </div>    
+        
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
  
-        <div class="item">推廣教育 Python(薛念林)</div>
-        <div class="item">推廣教育 Web(許展源)</div>
-        <div class="item">推廣教育 軟體工程(陳錫民)</div>
-        <div class="item">推廣教育 資訊概論(王銘宏)</div>
+        <div class="row">
+            <div class="col-md-12">
+                <a class="btn" href="#">參加此課程</a>
+            </div>
+        </div>
 
     </div>
+
+
 
 
 <div style="text-align: center" 
